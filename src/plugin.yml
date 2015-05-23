@@ -1,0 +1,8 @@
+name: OnConnectFarmcraft
+main: fr.tado.OnConnectFarmcraft.onConnectFarmcraft
+version: 0.1.2
+author: Tado
+wettite: http://tado87.be/
+commands:
+    play:
+      description: play
