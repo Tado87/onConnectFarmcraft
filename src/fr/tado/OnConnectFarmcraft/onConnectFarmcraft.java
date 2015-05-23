@@ -1,5 +1,5 @@
 package fr.tado.OnConnectFarmcraft;
-// c zolie tout ca
+
 import net.md_5.bungee.api.ChatColor;
 
 import org.bukkit.command.Command;
@@ -37,7 +37,7 @@ public class onConnectFarmcraft extends JavaPlugin implements Listener {
 	
 	@EventHandler
 	public void onJoin(PlayerJoinEvent e){
-		PlayerUtils.sendTitle(e.getPlayer(), ChatColor.GREEN  + "Bienvenue sur Farmcraft", "forum.farmcraft.fr");
+		//PlayerUtils.sendTitle(e.getPlayer(), ChatColor.GREEN  + "Bienvenue sur Farmcraft", "forum.farmcraft.fr");
 		e.setJoinMessage(ChatColor.RED+e.getPlayer().getName()+" §3a rejoint le serveur!");
 	}
 	
